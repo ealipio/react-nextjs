@@ -9,7 +9,7 @@ site deployed: https://hello-next.eisson.now.sh/
 to deploy in next.js server just made changes or add new features and then run 
 
 ```bash
-npm run build
+npm run deploy
 ```
 
 or simply 
