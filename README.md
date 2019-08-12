@@ -6,7 +6,7 @@ the syntaxis of next.js is very simple and you can start using it in minutes hav
 
 site deployed: https://hello-next.eisson.now.sh/
 
-to deploy just made changes or add new features and then run 
+to deploy in next.js server just made changes or add new features and then run 
 
 ```bash
 npm run build
@@ -19,6 +19,23 @@ now
 
 remember install now and login
 
-also give it a try to gatsby, this site generator is also a cool alternative
+if you want to deploy in your own environment run
+
+```bash
+npm run build
+```
+
+Then, you need to start your Next.js app on a port. This server will do server-side rendering and serve static pages (built with the above command).
+
+For that, now run the start script:
+```bash
+npm run start
+```
+
+Now you can see our app running here: http://localhost:3000
+
+
+
+That's it guys, Also give it a try to gatsby, this site generator is also a cool alternative
 
 Happy coding :)
