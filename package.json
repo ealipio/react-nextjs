@@ -6,12 +6,14 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "now"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eisson Alipio",
   "license": "ISC",
   "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^9.0.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
